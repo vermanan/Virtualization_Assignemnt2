@@ -27,7 +27,7 @@ jobs:
         with: 
           context: . 
           push: true 
-          tags: <docker-username>/<repo-name>:latest 
+          tags: vermanan/assign2:latest 
  
   deploy: 
     runs-on: ubuntu-latest 
